@@ -1,0 +1,18 @@
+# Credenciais e tokens OAuth (NUNCA versionar)
+client_secret*.json
+token*.json
+*.pem
+*.key
+.env
+
+# Ambiente virtual e cache Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs e scripts temporários locais
+*.log
+firebase-debug.log
+grok-continue.sh
